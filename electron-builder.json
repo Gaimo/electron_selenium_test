@@ -1,0 +1,10 @@
+{
+  "appId": "seu.app.id", 
+    "productName": "Nome da Sua Aplicação",
+      "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "nsis"
+  }
+}

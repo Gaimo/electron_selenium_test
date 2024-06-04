@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu App Electron</title>
+  <style>
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; }
+    button { padding: 15px 30px; font-size: 18px; }
+    #titulo { margin-top: 20px; font-size: 24px; }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+  </style>
+</head>
+<body>
+    <div class="wrapper">
+        <button id="iniciar">Iniciar</button>
+        <div id="titulo"></div>
+    </div>
+  <script src="renderer.js"></script> 
+</body>
+</html>
